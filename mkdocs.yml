@@ -1,5 +1,8 @@
-site_name: My GitHub Page
+site_name: 'my-github-page'
+site_description: 'My documentation'
+
 nav:
   - Home: index.md
+
 plugins:
   - techdocs-core
