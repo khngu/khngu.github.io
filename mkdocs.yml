@@ -1,8 +1,14 @@
-site_name: 'my-github-page'
-site_description: 'My documentation'
+site_name: 'My Documentation'
+site_description: 'My GitHub Pages Documentation'
 
 nav:
   - Home: index.md
+  - About: about.md
 
 plugins:
   - techdocs-core
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
