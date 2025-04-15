@@ -5,7 +5,7 @@ metadata:
   title: My GitHub Page # Optional display name
   description: My simple GitHub Pages site. # Optional description
   annotations:
-    github.com/project-slug: 'backstage/backstage' # Replace with your org/repo
+    github.com/project-slug: ''khngu/khngu.github.io'' # Replace with your org/repo
 spec:
   type: website # Or other relevant type
   lifecycle: experimental # Or your preferred lifecycle
