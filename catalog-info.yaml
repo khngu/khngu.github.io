@@ -1,13 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-github-page # Replace with a unique name for your component
-  title: My GitHub Page # Optional display name
-  description: My simple GitHub Pages site. # Optional description
+  name: my-github-page
   annotations:
-    github.com/project-slug: ''khngu/khngu.github.io'' # Replace with your org/repo
-    backstage.io/techdocs-ref: dir:.  # Critical for TechDocs integration
+    github.com/project-slug: khngu/khngu.github.io
+    backstage.io/techdocs-ref: dir:.
 spec:
-  type: website # Or other relevant type
-  lifecycle: experimental # Or your preferred lifecycle
-  owner: khngu # Should match the name in your User entity
+  type: website
+  lifecycle: experimental
+  owner: khngu
