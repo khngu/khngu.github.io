@@ -6,6 +6,7 @@ metadata:
   description: My simple GitHub Pages site. # Optional description
   annotations:
     github.com/project-slug: ''khngu/khngu.github.io'' # Replace with your org/repo
+    backstage.io/techdocs-ref: dir:.  # Critical for TechDocs integration
 spec:
   type: website # Or other relevant type
   lifecycle: experimental # Or your preferred lifecycle
