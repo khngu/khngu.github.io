@@ -12,7 +12,7 @@ plugins:
 
 markdown_extensions:
   - admonition
-  - pymdownx.highlight
-  - pymdownx.superfences
+  #- pymdownx.highlight
+  #- pymdownx.superfences
   - toc:
       permalink: true
