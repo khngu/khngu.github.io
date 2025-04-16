@@ -3,7 +3,6 @@ site_description: 'My GitHub Pages Documentation'
 
 nav:
   - Home: index.md
-  - About: about.md
 
 plugins:
   - techdocs-core
