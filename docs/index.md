@@ -1,11 +1,7 @@
-# Welcome to My Demo GitHub Page in Backstage!
+# Willkommen zur Dokumentation
 
-This is a simple Markdown file that will be rendered by TechDocs within my Backstage application.
+Dies ist die Hauptseite deiner Dokumentation.
 
----
+## Übersicht
 
-## Here's the content of my original `index.html`:
-
-```html
-<h1>Hello from my GitHub Page!</h1>
-<p>This is some basic HTML content.</p>
+Hier kannst du eine Übersicht über dein Projekt geben.
