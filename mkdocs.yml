@@ -9,5 +9,7 @@ plugins:
 
 markdown_extensions:
   - admonition
-  - pymdownx.details
+  - pymdownx.highlight
   - pymdownx.superfences
+  - toc:
+      permalink: true
