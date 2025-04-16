@@ -4,6 +4,9 @@ site_description: 'My GitHub Pages Documentation'
 nav:
   - Home: index.md
 
+repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
+edit_uri: edit/main/docs/
+
 plugins:
   - techdocs-core
 
@@ -12,4 +15,4 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - toc:
-      permalink: true
+    permalink: true
