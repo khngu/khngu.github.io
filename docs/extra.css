@@ -2,11 +2,8 @@
 
 /* Body background with image */
 body {
-    background-image: url('../assets/background.jpg'); /* Adjust the path to your image */
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: #333; /* Adjust text color as needed */
+    background-color: blue !important; /* Use !important to ensure it overrides other styles */
+    color: #333; /* Keep your text color */
 }
 
 /* Main content area to add a background and rounded corners */
