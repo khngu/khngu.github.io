@@ -1,21 +1,25 @@
-# Onboarding
+# Onboarding Guide
 
-Welcome to the onboarding guide. This document will help you get started with our tools and processes.
+This page provides information to help you get started with our systems and processes.
 
-## Steps to Get Started
+## Step 1: Account Setup
 
-1. **Account Setup**
-   - Request access to Git-Hub
-   - Set up your Confluence account
-   - Join the Teams-Kanal
-   - Get access to Sharepoint
+Follow these instructions to set up your user account.
 
-2. **Tool Familiarization**
-   - Learn about our [Git-Hub workflow](./tools.md#git-hub)
-   - Understand how we use [Confluence](./tools.md#confluence)
-   - Communications via [Teams-Kanal](./tools.md#teams-kanal)
-   - Document sharing on [Sharepoint](./tools.md#sharepoint)
+## Step 2: Introduction to Tools
 
-3. **Team Introduction**
-   - Meet [Team A](./team.md#team-a)
-   - Meet [Team B](./team.md#team-b)
+Get familiar with the key tools we use, such as:
+
+- [Git-Hub](tools/index.md#git-hub)
+- [Confluence](tools/index.md#confluence)
+- [Teams-Kanal](tools/index.md#teams-kanal)
+- [Sharepoint](tools/index.md#sharepoint)
+
+## Step 3: Team Introduction
+
+Meet your team members.
+
+## Further Resources
+
+- [Internal Wiki](https://your-internal-wiki.com)
+- [FAQ](faq.md)
