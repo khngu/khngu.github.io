@@ -1,12 +1,12 @@
 # Developer Onboarding 🚀
 
-<div style="animation: zoomIn 1.2s;">
+<div class="zoom-in">
 <img src="/api/placeholder/1200/250" alt="Onboarding Banner">
 </div>
 
 ## Welcome to the Team!
 
-<div style="animation: fadeIn 1.5s;">
+<div class="fade-in">
 This guide will help you get up and running quickly with our development environment, tools, and processes.
 </div>
 
@@ -18,7 +18,7 @@ This guide will help you get up and running quickly with our development environ
 
 ## 1. Setting Up Your Environment
 
-<div style="animation: slideInRight 1s;">
+<div class="slide-in-right">
 Follow these steps to get your development environment ready:
 </div>
 
@@ -51,7 +51,7 @@ npm start
 
 <div class="grid cards" markdown>
 
-<div style="animation: fadeInUp 0.8s;">
+<div class="fade-in-up delay-1">
 
 - :material-code-tags:{ .lg .middle } **Code Repositories**
 
@@ -63,7 +63,7 @@ npm start
 
 </div>
 
-<div style="animation: fadeInUp 1.1s;">
+<div class="fade-in-up delay-2">
 
 - :material-account-group:{ .lg .middle } **Team Structure**
 
@@ -75,7 +75,7 @@ npm start
 
 </div>
 
-<div style="animation: fadeInUp 1.4s;">
+<div class="fade-in-up delay-3">
 
 - :material-tools:{ .lg .middle } **Development Tools**
 
@@ -87,7 +87,7 @@ npm start
 
 </div>
 
-<div style="animation: fadeInUp 1.7s;">
+<div class="fade-in-up delay-4">
 
 - :material-school:{ .lg .middle } **Learning Resources**
 
@@ -103,7 +103,7 @@ npm start
 
 ## 3. Your First Contribution
 
-<div style="animation: fadeIn 2s;">
+<div class="fade-in delay-3">
 
 We follow a standard GitHub workflow for contributions:
 
@@ -124,7 +124,7 @@ graph LR
 
 ## 4. Communication Channels
 
-<div style="animation: slideInLeft 1.2s;">
+<div class="slide-in-left">
 
 | Channel | Purpose | How to Join |
 | ------- | ------- | ----------- |
@@ -136,7 +136,7 @@ graph LR
 
 ## 5. Need Help?
 
-<div style="animation: pulse 2s infinite;">
+<div class="pulse">
 
 If you get stuck or have questions:
 
@@ -148,36 +148,3 @@ If you get stuck or have questions:
 
 !!! quote "Developer Tip"
     "The best way to learn is by doing. Don't be afraid to experiment, ask questions, and make mistakes!"
-
-<style>
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@keyframes zoomIn {
-  from { transform: scale(0.8); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
-}
-
-@keyframes slideInRight {
-  from { transform: translateX(50px); opacity: 0; }
-  to { transform: translateX(0); opacity: 1; }
-}
-
-@keyframes slideInLeft {
-  from { transform: translateX(-50px); opacity: 0; }
-  to { transform: translateX(0); opacity: 1; }
-}
-
-@keyframes fadeInUp {
-  from { transform: translateY(20px); opacity: 0; }
-  to { transform: translateY(0); opacity: 1; }
-}
-
-@keyframes pulse {
-  0% { transform: scale(1); }
-  50% { transform: scale(1.03); }
-  100% { transform: scale(1); }
-}
-</style>
