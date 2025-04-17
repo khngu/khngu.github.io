@@ -3,8 +3,9 @@ site_description: 'My GitHub Pages Documentation'
 nav:
   - Home: index.md
   - Onboarding: onboarding.md
-  - Team: team.md
-  - Tools: tools.md
+  - Team A: team_a/
+  - Team B: team_b/
+  - Tools: tools/
   - Getting Started: getting-started.md
 repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
 edit_uri: edit/main/docs/
@@ -27,8 +28,12 @@ extra_javascript:
 theme:
   name: material
   palette:
-    primary: red
-    accent: red
+    - scheme: default
+      primary: red
+      accent: red
+    - scheme: slate # You can define a secondary scheme if needed for Team B
+      primary: indigo # Example color for Team B
+      accent: indigo
   favicon: assets/favicon.png
   features:
     - navigation.tabs
