@@ -1,12 +1,12 @@
 # Welcome to My Developer Portal! ✨
 
-<div style="animation: fadeIn 1.5s ease-in;">
+<div class="zoom-in">
 <img src="/api/placeholder/1200/250" alt="Developer Portal Banner">
 </div>
 
 ## Your One-Stop Development Hub
 
-<div style="animation: slideInRight 1s ease-out;">
+<div class="slide-in-right">
 This developer portal brings together all the tools, documentation, and resources you need in one place. Whether you're a new team member or a seasoned contributor, you'll find everything you need to be productive.
 </div>
 
@@ -19,7 +19,7 @@ This developer portal brings together all the tools, documentation, and resource
 
 <div class="grid cards" markdown>
 
-<div style="animation: bounceIn 1.2s;">
+<div class="bounce-in delay-1">
 
 - **Centralized Documentation**
   
@@ -27,7 +27,7 @@ This developer portal brings together all the tools, documentation, and resource
 
 </div>
 
-<div style="animation: bounceIn 1.4s;">
+<div class="bounce-in delay-2">
 
 - **Self-Service Resources**
   
@@ -35,7 +35,7 @@ This developer portal brings together all the tools, documentation, and resource
 
 </div>
 
-<div style="animation: bounceIn 1.6s;">
+<div class="bounce-in delay-3">
 
 - **Team Collaboration**
   
@@ -43,7 +43,7 @@ This developer portal brings together all the tools, documentation, and resource
 
 </div>
 
-<div style="animation: bounceIn 1.8s;">
+<div class="bounce-in delay-4">
 
 - **Tech Radar**
   
@@ -55,7 +55,7 @@ This developer portal brings together all the tools, documentation, and resource
 
 ## Recent Updates
 
-<div style="animation: fadeIn 2s;">
+<div class="fade-in">
 
 | Date | Update |
 | ---- | ------ |
@@ -67,7 +67,7 @@ This developer portal brings together all the tools, documentation, and resource
 
 ## Getting Help
 
-<div style="animation: slideInLeft 1s;">
+<div class="slide-in-left">
 
 Having trouble? Don't worry, we're here to help! Visit the Q&A section to ask questions or check out existing answers.
 
@@ -77,26 +77,3 @@ Having trouble? Don't worry, we're here to help! Visit the Q&A section to ask qu
 
 !!! note "Community Resources"
     This developer portal is built with [Backstage](https://backstage.io/), an open platform for building developer portals.
-
-<style>
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-
-@keyframes slideInRight {
-  from { transform: translateX(50px); opacity: 0; }
-  to { transform: translateX(0); opacity: 1; }
-}
-
-@keyframes slideInLeft {
-  from { transform: translateX(-50px); opacity: 0; }
-  to { transform: translateX(0); opacity: 1; }
-}
-
-@keyframes bounceIn {
-  0% { transform: scale(0.8); opacity: 0; }
-  70% { transform: scale(1.03); opacity: 1; }
-  100% { transform: scale(1); opacity: 1; }
-}
-</style>
