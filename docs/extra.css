@@ -1,4 +1,9 @@
-/* Animations for your docs */
+/* Base styling enhancements */
+body {
+  scroll-behavior: smooth;
+}
+
+/* Animation keyframes */
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -36,18 +41,246 @@
   100% { transform: scale(1); }
 }
 
-/* Animation classes */
-.fade-in { animation: fadeIn 1.5s ease-in; }
-.slide-in-right { animation: slideInRight 1s ease-out; }
-.slide-in-left { animation: slideInLeft 1s ease-out; }
-.bounce-in { animation: bounceIn 1.2s; }
-.zoom-in { animation: zoomIn 1.2s; }
-.fade-in-up { animation: fadeInUp 1s; }
-.pulse { animation: pulse 2s infinite; }
+/* Automatic animations for common elements */
+.md-content h1 {
+  animation: fadeIn 1.2s ease-out;
+}
 
-/* Delay classes */
-.delay-1 { animation-delay: 0.2s; }
-.delay-2 { animation-delay: 0.4s; }
-.delay-3 { animation-delay: 0.6s; }
-.delay-4 { animation-delay: 0.8s; }
-.delay-5 { animation-delay: 1s; }
+.md-content h2 {
+  animation: slideInRight 1s ease-out;
+  position: relative;
+}
+
+.md-content h2::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #e53935;
+  animation: lineExpand 1.5s forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes lineExpand {
+  to { width: 100px; }
+}
+
+.md-content p {
+  animation: fadeIn 1.8s;
+}
+
+.md-content ul, .md-content ol {
+  animation: fadeIn 2s;
+}
+
+.md-content blockquote {
+  border-left: 4px solid #e53935;
+  padding-left: 15px;
+  animation: slideInLeft 1.5s;
+}
+
+.md-content code {
+  animation: fadeIn 1.2s;
+  transition: background-color 0.3s;
+}
+
+.md-content code:hover {
+  background-color: rgba(97, 97, 97, 0.1);
+}
+
+.md-content a {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.md-content a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background-color: currentColor;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.md-content a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Card styling for sections */
+.md-content h2 + ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 15px 0;
+}
+
+.md-content h2 + ul li {
+  background: linear-gradient(145deg, #ffffff, #f5f5f5);
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  list-style-type: none;
+  animation: fadeInUp 0.8s;
+  animation-fill-mode: both;
+}
+
+.md-content h2 + ul li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.md-content h2 + ul li:nth-child(1) { animation-delay: 0.1s; }
+.md-content h2 + ul li:nth-child(2) { animation-delay: 0.2s; }
+.md-content h2 + ul li:nth-child(3) { animation-delay: 0.3s; }
+.md-content h2 + ul li:nth-child(4) { animation-delay: 0.4s; }
+.md-content h2 + ul li:nth-child(5) { animation-delay: 0.5s; }
+.md-content h2 + ul li:nth-child(6) { animation-delay: 0.6s; }
+
+/* Progress indicators for onboarding guide */
+.md-content h2:contains("Phase") {
+  padding-left: 30px;
+  position: relative;
+}
+
+.md-content h2:contains("Phase")::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8em;
+  animation: bounceIn 1s;
+}
+
+/* Modern table style */
+.md-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 25px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 1.5s;
+}
+
+.md-content th {
+  background-color: #f5f5f5;
+  padding: 12px 15px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.md-content td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.md-content tr:last-child td {
+  border-bottom: none;
+}
+
+.md-content tr:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Code block enhancements */
+.md-content pre {
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  margin: 20px 0;
+  animation: fadeIn 1.5s;
+}
+
+.md-content pre:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Special animation for links to onboarding */
+.md-content a[href*="onboarding"] {
+  padding: 8px 16px;
+  background-color: #2196f3;
+  color: white !important;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(33, 150, 243, 0.3);
+  animation: pulse 2s infinite;
+}
+
+.md-content a[href*="onboarding"]:hover {
+  background-color: #1976d2;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 8px rgba(33, 150, 243, 0.4);
+}
+
+.md-content a[href*="onboarding"]::after {
+  display: none;
+}
+
+/* Emoji animations */
+.md-content h1:first-child::after,
+.md-content p em::after {
+  display: inline-block;
+  animation: wave 1.5s infinite;
+}
+
+@keyframes wave {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(10deg); }
+  75% { transform: rotate(-10deg); }
+}
+
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+  .md-content h2 + ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Dark mode compatibility */
+@media (prefers-color-scheme: dark) {
+  .md-content h2 + ul li {
+    background: linear-gradient(145deg, #2d2d2d, #333333);
+  }
+  
+  .md-content th {
+    background-color: #2d2d2d;
+    border-bottom: 2px solid #444;
+  }
+  
+  .md-content td {
+    border-bottom: 1px solid #444;
+  }
+  
+  .md-content tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+/* Accessibility - respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
