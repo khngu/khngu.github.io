@@ -1,17 +1,13 @@
 # Getting Started
 
-This guide provides an overview of how to get started with our documentation and tools.
+This page provides a high-level overview of how to use our documentation.
 
-## Documentation Structure
+## Navigating the Documentation
 
-Our documentation is organized into several key sections:
+Use the tabs at the top to explore different sections. The sidebar on the right provides a table of contents for the current page.
 
-- **[Team](./team.md)**: Information about team members and responsibilities
-- **[Tools](./tools.md)**: Details about the tools we use
-- **[Onboarding](./onboarding.md)**: Steps for new team members
+## Key Resources
 
-## How to Use This Documentation
-
-1. Navigate using the top navigation tabs
-2. Use the left sidebar to explore sections within each area
-3. Search for specific terms using the search functionality
+- [Homepage](index.md)
+- [Onboarding Guide](onboarding.md)
+- [Tools Documentation](tools/index.md)
