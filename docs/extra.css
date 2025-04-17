@@ -12,9 +12,9 @@
 
 /* Header styling */
 .md-header {
-  background-color: #222;
-  color: white;
+  background-color: #222 !important;
 }
+
 
 h1 {
   font-size: 3.5rem !important;
@@ -24,10 +24,15 @@ h1 {
 
 /* Main content area with background image */
 .md-main {
-  background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+  background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') !important;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+/* This will force-hide the navigation sidebar */
+.md-sidebar--primary {
+  display: none !important;
 }
 
 .md-main__inner {
