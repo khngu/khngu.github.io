@@ -1,156 +1,118 @@
-/* Custom CSS for documentation site */
+/* Custom styles to match the example */
 
-:root {
-  --md-primary-fg-color: #e32718;
-  --md-primary-fg-color--light: #f44336;
-  --md-primary-fg-color--dark: #b71c1c;
-  --md-accent-fg-color: #e32718;
-  --team-a-color: #e32718;
-  --team-b-color: #fff;
-  --team-b-text: #333;
-}
-
-/* Header styling */
-.md-header {
-  background-color: #222 !important;
-}
-
-
-h1 {
-  font-size: 3.5rem !important;
-  font-weight: 300 !important;
-  margin-bottom: 2rem !important;
-}
-
-/* Main content area with background image */
-.md-main {
-  background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') !important;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-/* This will force-hide the navigation sidebar */
-.md-sidebar--primary {
-  display: none !important;
-}
-
-.md-main__inner {
-  padding-top: 2rem;
-}
-
-.md-content {
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 0.5rem;
-  padding: 2rem !important;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* Team tabs styling */
-.team-tabs {
-  display: flex;
-  margin-bottom: 2rem;
-  justify-content: center;
-}
-
-.team-tab {
-  padding: 0.75rem 2rem;
-  border-radius: 2rem;
-  margin: 0 0.5rem;
-  font-weight: 500;
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.team-a {
-  background-color: var(--team-a-color);
-  color: white;
-}
-
-.team-b {
-  background-color: var(--team-b-color);
-  color: var(--team-b-text);
-  border: 1px solid #ddd;
-}
-
-/* Tool navigation */
-.tool-nav {
-  display: flex;
-  margin: 2rem 0;
-  flex-wrap: wrap;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 0.25rem;
-  padding: 0.5rem;
-  align-items: center;
-}
-
-.back-button {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: var(--team-a-color);
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 1rem;
-  cursor: pointer;
-}
-
-.tool-button {
-  padding: 0.75rem 1.5rem;
-  border-radius: 2rem;
-  margin: 0.25rem 0.5rem;
-  font-weight: 500;
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.tool-selected {
-  background-color: var(--team-a-color);
-  color: white;
-}
-
-.tool-unselected {
-  background-color: white;
-  color: #333;
-  border: 1px solid #ddd;
-}
-
-/* Section styling */
-.md-typeset h2 {
-  font-size: 2rem;
-  font-weight: 500;
-  margin-top: 3rem;
-}
-
-.md-typeset h3 {
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-/* Override MkDocs theme to match screenshot */
-.md-sidebar {
-  display: none;
-}
-
-.md-content__inner {
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
+/* Body background with image */
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
+    background-image: url('../assets/background.jpg'); /* Adjust the path to your image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333; /* Adjust text color as needed */
 }
 
-/* Dark background with white text */
-.dark-section {
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 2rem;
-  border-radius: 0.25rem;
+/* Main content area to add a background and rounded corners */
+.md-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto; /* Center the content */
+    max-width: 90%; /* Adjust maximum width as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
+
+/* Style for the top "Team A" and "Team B" navigation */
+.top-navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.top-navigation button {
+    background-color: #e53935; /* Red for Team A */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.top-navigation button:hover {
+    background-color: #d32f2f;
+}
+
+.top-navigation button.team-b {
+    background-color: #3f51b5; /* Indigo for Team B */
+}
+
+.top-navigation button.team-b:hover {
+    background-color: #303f9f;
+}
+
+/* Style for the secondary tabbed navigation */
+.md-tabs {
+    background-color: #f5f5f5;
+    border-radius: 25px;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start; /* Align tabs to the left */
+    margin-bottom: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling for many tabs */
+}
+
+.md-tabs__item {
+    flex-shrink: 0; /* Prevent tabs from shrinking */
+}
+
+.md-tabs__link {
+    color: #333;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 0 5px;
+    background-color: transparent; /* Remove default background */
+    border: 1px solid #ccc; /* Optional border */
+}
+
+.md-tabs__link:hover,
+.md-tabs__item.md-tabs__item--active .md-tabs__link {
+    background-color: #e0e0e0;
+    color: #212121;
+    border-color: #b3b3b3; /* Optional border color on hover/active */
+}
+
+.md-tabs__item--active .md-tabs__link {
+    background-color: #d4d4d4;
+}
+
+/* Style for section headings */
+h1, h2 {
+    color: #2c3e50; /* Darker heading color */
+    border-bottom: 2px solid #ccc; /* Add a subtle underline */
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+h3, h4, h5, h6 {
+    color: #34495e;
+    margin-top: 20px;
+}
+
+/* Ensure table of contents doesn't interfere too much */
+.md-sidebar--secondary {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* Add more custom styles as needed */
