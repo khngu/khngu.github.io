@@ -1,21 +1,86 @@
-site_name: 'My Documentation'
-site_description: 'My GitHub Pages Documentation'
+site_name: 'Interactive Documentation Portal'
+site_description: 'Modern and engaging documentation with animations'
+site_url: 'https://khngu.github.io/'
+site_author: 'khngu'
 
+# Repository
+repo_name: 'khngu/khngu.github.io'
+repo_url: 'https://github.com/khngu/khngu.github.io'
+edit_uri: 'edit/main/docs/'
+
+# Theme configuration
+theme:
+  name: 'material'
+  custom_dir: 'overrides'
+  palette:
+    primary: 'indigo'
+    accent: 'deep orange'
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  icon:
+    logo: 'material/book-open-page-variant'
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - navigation.top
+    - navigation.sections
+    - header.autohide
+    - content.code.annotate
+    - content.tabs.link
+
+# Navigation
 nav:
   - Home: index.md
-  - Onboarding: onboarding.md
-  - Team: team.md
-  - Tools: tools.md
-  - Getting Started: getting-started.md
-repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
-edit_uri: edit/main/docs/
+  - Onboarding:
+      - Getting Started: onboarding/getting-started.md
+      - Your First Day: onboarding/first-day.md
+      - Essential Tools: onboarding/tools.md
+  - Meet The Team: team.md
+  - Tools & Resources: tools.md
+  - Developer Guide: getting-started.md
 
-plugins:
-  - techdocs-core
-
+# Extensions
 markdown_extensions:
   - admonition
-  #- pymdownx.highlight
-  #- pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - meta
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
   - toc:
       permalink: true
+
+# Plugins
+plugins:
+  - search
+  - techdocs-core
+  - glightbox
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - minify:
+      minify_html: true
+
+# Additional CSS & JavaScript
+extra_css:
+  - assets/css/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
+
+extra_javascript:
+  - assets/js/extra.js
+  - https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js
