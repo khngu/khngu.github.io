@@ -27,12 +27,12 @@ extra_javascript:
 theme:
   name: material
   palette:
-    - scheme: default
-      primary: red
-      accent: red
-    - scheme: slate
-      primary: indigo
-      accent: indigo
+    #- scheme: default
+    #  primary: red
+    #  accent: red
+    #- scheme: slate
+    #  primary: indigo
+    #  accent: indigo
   favicon: assets/favicon.png
   features:
     - navigation.tabs
