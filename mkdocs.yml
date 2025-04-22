@@ -6,8 +6,8 @@ nav:
   - Team: team.md
   - Tools: tools/
   - Getting Started: getting-started.md
-repo_url: https://github.com/khngu/khngu.github.io/tree/main
-edit_uri: edit/main
+repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
+edit_uri: edit/main/docs
 plugins:
   - techdocs-core
   - search
