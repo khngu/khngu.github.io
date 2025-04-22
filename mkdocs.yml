@@ -6,8 +6,8 @@ nav:
   - Team: team.md
   - Tools: tools/
   - Getting Started: getting-started.md
-repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
-edit_uri: edit/main/docs/
+repo_url: https://github.com/khngu/khngu.github.io/tree/main
+edit_uri: edit/main
 plugins:
   - techdocs-core
   - search
@@ -30,8 +30,8 @@ theme:
     - scheme: default
       primary: red
       accent: red
-    - scheme: slate # You can define a secondary scheme if needed for Team B
-      primary: indigo # Example color for Team B
+    - scheme: slate
+      primary: indigo
       accent: indigo
   favicon: assets/favicon.png
   features:
