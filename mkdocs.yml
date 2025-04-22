@@ -10,7 +10,6 @@ nav:
   - Technical Solutions: technical_solutions/
   - Toolchain: toolchain/
   - Tutorials: tutorials/
-  - .DS_Store: .DS_Store
 repo_url: https://github.com/khngu/khngu.github.io
 edit_uri: edit/main/website/content/docs/developer_manual
 plugins:
@@ -27,13 +26,6 @@ markdown_extensions:
       alternate_style: true
 theme:
   name: material
-  palette:
-    #- scheme: default
-    #  primary: red
-    #  accent: red
-    #- scheme: slate
-    #  primary: indigo
-    #  accent: indigo
   favicon: assets/favicon.png
   features:
     - navigation.tabs
