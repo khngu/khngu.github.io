@@ -1,13 +1,18 @@
 site_name: 'My Documentation'
 site_description: 'My GitHub Pages Documentation'
+docs_dir: 'website/content/docs/developer_manual'
 nav:
-  - Home: index.md
-  - Onboarding: onboarding.md
-  - Team: team.md
-  - Tools: tools/
-  - Getting Started: getting-started.md
-repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
-edit_uri: edit/main/docs
+  - Home: _index.md
+  - Getting Started: getting_started/
+  - Infrastructure: infrastructure/
+  - Kubernetes: kubernetes/
+  - O11y: o11y/
+  - Technical Solutions: technical_solutions/
+  - Toolchain: toolchain/
+  - Tutorials: tutorials/
+  - .DS_Store: .DS_Store
+repo_url: https://github.com/khngu/khngu.github.io
+edit_uri: edit/main/website/content/docs/developer_manual
 plugins:
   - techdocs-core
   - search
