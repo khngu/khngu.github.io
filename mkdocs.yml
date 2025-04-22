@@ -1,4 +1,4 @@
-site_name: 'My Documentation'
+asite_name: 'My Documentation'
 site_description: 'My GitHub Pages Documentation'
 docs_dir: 'website/content/docs/developer_manual'
 nav:
@@ -6,7 +6,7 @@ nav:
   - Getting Started: getting_started/
   - Infrastructure: infrastructure/
   - Kubernetes: kubernetes/
-  - O11y: o11y/
+  - Observability: o11y/
   - Technical Solutions: technical_solutions/
   - Toolchain: toolchain/
   - Tutorials: tutorials/
