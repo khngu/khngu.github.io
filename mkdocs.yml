@@ -3,8 +3,7 @@ site_description: 'My GitHub Pages Documentation'
 nav:
   - Home: index.md
   - Onboarding: onboarding.md
-  - Team A: team_a/
-  - Team B: team_b/
+  - Team: team.md
   - Tools: tools/
   - Getting Started: getting-started.md
 repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
