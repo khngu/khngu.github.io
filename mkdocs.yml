@@ -1,13 +1,16 @@
 site_name: 'My Documentation'
 site_description: 'My GitHub Pages Documentation'
 nav:
-  - Home: index.md
-  - Onboarding: onboarding.md
-  - Team: team.md
-  - Tools: tools/
-  - Getting Started: getting-started.md
-repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
-edit_uri: edit/main/docs
+  - Home: developer_manual/_index.md
+  - Getting Started: developer_manual/getting_started/_index.md
+  - Infrastructure: developer_manual/infrastructure/_index.md
+  - Kubernetes: developer_manual/kubernetes/_index.md
+  - Observability: developer_manual/cli/_index.md
+  - Technical Solutions: developer_manual/technical_solutions/_index.md
+  - Toolchain: developer_manual/toolchain/_index.md
+  - Tutorials: developer_manual/tutorials/_index.md
+repo_url: https://github.com/khngu/khngu.github.io/tree/main/website
+edit_uri: edit/main/website/
 plugins:
   - techdocs-core
   - search
@@ -27,12 +30,12 @@ extra_javascript:
 theme:
   name: material
   palette:
-    #- scheme: default
-    #  primary: red
-    #  accent: red
-    #- scheme: slate
-    #  primary: indigo
-    #  accent: indigo
+    - scheme: default
+      primary: red
+      accent: red
+    - scheme: slate # You can define a secondary scheme if needed for Team B
+      primary: indigo # Example color for Team B
+      accent: indigo
   favicon: assets/favicon.png
   features:
     - navigation.tabs
