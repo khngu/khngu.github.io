@@ -50,7 +50,7 @@ First, you need to be able to reach the [Cribl] endpoint, normally available und
 {{< alert color="success" >}}
 All FusionC production accounts ([v3](https://github.vodafone.com/pages/VFDE-SOL/docs-sol-cet/docs/core_concepts/#vodafone-fusionc-cet-account)), which were available before **8th October 2024**, are already allowed to establish PrivateLink connection.
 
-All other or new accounts need to get in touch with [Maher Rashed](maher.rashed@vodafone.com) from the *_VOIS Monitoring Engineering & Operation Team*, or with [Aya ElNagar](aya.el-naggar@vodafone.com)  as a backup contact. Send them an email with the subject "*Allow AWS accounts to the existing Grafana source on Cribl AWS*" and include your account number(s).
+All other or new accounts need to get in touch with from the *_VOIS Monitoring Engineering & Operation Team*, or with as a backup contact. Send them an email with the subject "*Allow AWS accounts to the existing Grafana source on Cribl AWS*" and include your account number(s).
 {{< /alert >}}
 
 To finally establish the PrivateLink connection, you can use the feature in our [terraform-component-privatelink](https://github.vodafone.com/VFDE-SOL/terraform-component-privatelink/tree/master/modules/endpoint/consuming#input_vodafone_endpoints) component, which should already be installed in your account.
