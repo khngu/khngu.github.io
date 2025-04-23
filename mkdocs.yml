@@ -1,17 +1,13 @@
-asite_name: 'My Documentation'
+site_name: 'My Documentation'
 site_description: 'My GitHub Pages Documentation'
-docs_dir: 'website/content/docs/developer_manual'
 nav:
-  - Home: _index.md
-  - Getting Started: getting_started/
-  - Infrastructure: infrastructure/
-  - Kubernetes: kubernetes/
-  - Observability: o11y/
-  - Technical Solutions: technical_solutions/
-  - Toolchain: toolchain/
-  - Tutorials: tutorials/
-repo_url: https://github.com/khngu/khngu.github.io
-edit_uri: edit/main/website/content/docs/developer_manual
+  - Home: index.md
+  - Onboarding: onboarding.md
+  - Team: team.md
+  - Tools: tools/
+  - Getting Started: getting-started.md
+repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
+edit_uri: edit/main/docs
 plugins:
   - techdocs-core
   - search
@@ -24,8 +20,19 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+extra_css:
+  - extra.css
+extra_javascript:
+  - extra.js
 theme:
   name: material
+  palette:
+    #- scheme: default
+    #  primary: red
+    #  accent: red
+    #- scheme: slate
+    #  primary: indigo
+    #  accent: indigo
   favicon: assets/favicon.png
   features:
     - navigation.tabs
