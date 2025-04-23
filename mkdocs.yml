@@ -3,13 +3,13 @@ site_description: 'My GitHub Pages Documentation'
 docs_dir: 'website/content/docs/developer_manual'
 nav:
   - Home: _index.md
-  - Getting Started: getting_started/
-  - Infrastructure: infrastructure/
-  - Kubernetes: kubernetes/
-  - Observability: o11y/
-  - Technical Solutions: technical_solutions/
-  - Toolchain: toolchain/
-  - Tutorials: tutorials/
+  - Getting Started: getting_started/index.md
+  - Infrastructure: infrastructure/index.md
+  - Kubernetes: kubernetes/index.md
+  - Observability: o11y/index.md
+  - Technical Solutions: technical_solutions/index.md
+  - Toolchain: toolchain/index.md
+  - Tutorials: tutorials/index.md
 repo_url: https://github.com/khngu/khngu.github.io
 edit_uri: edit/main/website/content/docs/developer_manual
 plugins:
