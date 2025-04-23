@@ -195,7 +195,7 @@ if you are using only the karpenter custom nodepool chart provided by Tesla (sti
     - Change the component `platform/cet_eks` version to `cet-eks/v0.8.1` (make sure that this change is saved in your editor)
     - Check whether PAM related roles are present in your environment (check if INF-DEVOPS and KubeAdmin AWS roles exist - having them as IamIdentityMapping in the cluster does not prove that PAM is rolled out). If not set `pam_roles_access_entries_enabled = false` in the inputs of `platform/cet_eks terragrunt.hcl` file
     - In the directory containing the terragrunt.hcl file (most likely `platform/cet_eks`), run the script [`migrate-to-v0.8.sh`](https://github.vodafone.com/VFDE-SOL/terraform-component-eks/blob/cet-eks/v0.8.1/modules/cet-eks/utils/migrate-to-v0.8.sh) to import EKSAdmin `cluster access entry` and `cluster access policy association`. The script must be run using `with_sol_<ENV_SHORT_ALIAS>` alias.
-    - If the script succeeds, optionally add your own access entries through the `access_entries` input ([access entries docs]({{< ref external-authentication.html >}}))
+    - If the script succeeds, optionally add your own access entries through the `access_entries` input 
     - Add, commit and push the changes. Create a pull request and wait for review, then comment `atlantis apply` on the PR. Expected: `13 + 2*n to add, 0 to change, 0 to destroy` where `n` is the number of access entries you added other than the default ones. If `pam_roles_access_entries_enabled` was set to `false` expect `8 + 2*n to add, 0 to change, 0 to destroy`.
 
 {{% alert color="success" title="Note" %}}
