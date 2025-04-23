@@ -9,7 +9,7 @@ tags: [terraform, IaC, GitHub Actions]
 
 ## What is a dirty state
 
-In CET, environments are AWS accounts which infrastructure is defined by collections of Terraform Modules that are deployed by Terragrunt. Those collections are defined in the environment folders of the corresponding terraform-project-repository, like [described here](./infrastructure_development.html).
+In CET, environments are AWS accounts which infrastructure is defined by collections of Terraform Modules that are deployed by Terragrunt. Those collections are defined in the environment folders of the corresponding terraform-project-repository, like.
 
 The HEAD of the master branch of a terraform-project-repository is the commit where these environment folders and their content must be deployed from (or 'applied' like you would say Terraform slang). This way the infrastructure in the AWS accounts matches the state that is decribend in the corresponding environment folder in terraform-project-repository in the HEAD of master.
 
