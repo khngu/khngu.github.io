@@ -1,4 +1,4 @@
-asite_name: 'My Documentation'
+site_name: 'My Documentation'
 site_description: 'My GitHub Pages Documentation'
 docs_dir: 'website/content/docs/developer_manual'
 nav:
