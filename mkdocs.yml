@@ -1,5 +1,6 @@
 site_name: 'Developer Manual'
 site_description: 'Developer Documentation'
+docs_dir: website/content/docs/developer_manual
 nav:
   - Home: index.md
   - Getting Started: getting_started/
