@@ -1,4 +1,3 @@
-and i have the mkdocs.yml file on main tree:
 site_name: 'My Documentation'
 site_description: 'My GitHub Pages Documentation'
 nav:
