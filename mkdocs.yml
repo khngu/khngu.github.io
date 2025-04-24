@@ -1,11 +1,14 @@
 site_name: 'My Documentation'
 site_description: 'My GitHub Pages Documentation'
 nav:
-  - Home: index.md
-  - Onboarding: onboarding.md
-  - Team: team.md
-  - Tools: tools/
-  - Getting Started: getting-started.md
+  - Home: _index.md
+  - Getting Started: getting_started/_index.md
+  - Infrastructure: infrastructure/_index.md
+  - Kubernetes: kubernetes/_index.md
+  - O11y: o11y/_index.md
+  - Technical Solutions: technical_solutions/_index.md
+  - Toolchain: toolchain/_index.md
+  - Tutorials: tutorials/_index.md
 repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
 edit_uri: edit/main/docs
 plugins:
@@ -27,12 +30,12 @@ extra_javascript:
 theme:
   name: material
   palette:
-    #- scheme: default
-    #  primary: red
-    #  accent: red
-    #- scheme: slate
-    #  primary: indigo
-    #  accent: indigo
+    # - scheme: default
+    #   primary: red
+    #   accent: red
+    # - scheme: slate
+    #   primary: indigo
+    #   accent: indigo
   favicon: assets/favicon.png
   features:
     - navigation.tabs
