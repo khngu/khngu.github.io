@@ -5,8 +5,8 @@ nav:
   - Onboarding: onboarding.md
   - Team: team.md
   - Tools: tools/
-  - Getting Started: getting-started.md
-  - Test2: developer_manual/_index.md
+  - Getting Started: test/getting-started.md
+  - Test2: test/test2/_index.md
 repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
 edit_uri: edit/main/docs
 plugins:
