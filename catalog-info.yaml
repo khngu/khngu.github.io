@@ -5,7 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: khngu/khngu.github.io
     backstage.io/techdocs-ref: dir:.
-#spec:
-#  type: website
-#  lifecycle: experimental
-#  owner: khngu
+spec:
+  type: document
+  #lifecycle: experimental
+  owner: vodafone
