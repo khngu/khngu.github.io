@@ -4,7 +4,7 @@ metadata:
   name: my-github-page
   annotations:
     github.com/project-slug: khngu/khngu.github.io
-    backstage.io/techdocs-ref: dir:./docs/
+    backstage.io/techdocs-ref: dir:./website/content/docs/
 spec:
   type: website
   lifecycle: experimental
