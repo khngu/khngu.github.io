@@ -1,13 +1,16 @@
-site_name: 'My Documentation'
-site_description: 'My GitHub Pages Documentation'
+site_name: 'Developer Manual'
+site_description: 'Developer Documentation'
 nav:
   - Home: index.md
-  - Onboarding: onboarding.md
-  - Team: team.md
-  - Tools: tools/
-  - Getting Started: test/getting-started.md
-repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
-edit_uri: edit/main/docs
+  - Getting Started: getting_started/
+  - Infrastructure: infrastructure/
+  - Kubernetes: kubernetes/
+  - O11y: o11y/
+  - Technical Solutions: technical_solutions/
+  - Toolchain: toolchain/
+  - Tutorials: tutorials/
+repo_url: https://github.com/khngu/khngu.github.io/tree/main/website/content/docs/developer_manual
+edit_uri: edit/main/website/content/docs/developer_manual
 plugins:
   - techdocs-core
   - search
@@ -26,14 +29,6 @@ extra_javascript:
   - extra.js
 theme:
   name: material
-  palette:
-    #- scheme: default
-    #  primary: red
-    #  accent: red
-    #- scheme: slate
-    #  primary: indigo
-    #  accent: indigo
-  favicon: assets/favicon.png
   features:
     - navigation.tabs
     - navigation.sections
