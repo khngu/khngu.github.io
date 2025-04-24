@@ -3,7 +3,7 @@
     <a href="team_b/"><button class="team-b">Team B</button></a>
 </div>
 
-# Documentationsssss
+# Documentation
 
 Welcome to the main documentation site. This is the landing page for all documentation resources.
 
