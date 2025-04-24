@@ -1,17 +1,13 @@
 site_name: 'My Documentation'
 site_description: 'My GitHub Pages Documentation'
-docs_dir: 'website/content/docs/developer_manual'
 nav:
-  - Home: website/content/docs/developer_manual/_index.md
-  - Getting Started: website/content/docs/developer_manual/getting_started/_index.md
-  - Infrastructure: website/content/docs/developer_manual/infrastructure/_index.md
-  - Kubernetes: website/content/docs/developer_manual/kubernetes/_index.md
-  - Observability: website/content/docs/developer_manual/o11y/_index.md
-  - Technical Solutions: website/content/docs/developer_manual/technical_solutions/_index.md
-  - Toolchain: website/content/docs/developer_manual/toolchain/_index.md
-  - Tutorials: website/content/docs/developer_manual/tutorials/_index.md
-repo_url: https://github.com/khngu/khngu.github.io
-edit_uri: main/website/content/docs/developer_manual
+  - Home: index.md
+  - Onboarding: onboarding.md
+  - Team: team.md
+  - Tools: tools/
+  - Getting Started: getting-started.md
+repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
+edit_uri: edit/main/docs
 plugins:
   - techdocs-core
   - search
@@ -24,8 +20,19 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+extra_css:
+  - extra.css
+extra_javascript:
+  - extra.js
 theme:
   name: material
+  palette:
+    #- scheme: default
+    #  primary: red
+    #  accent: red
+    #- scheme: slate
+    #  primary: indigo
+    #  accent: indigo
   favicon: assets/favicon.png
   features:
     - navigation.tabs
