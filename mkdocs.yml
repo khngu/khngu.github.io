@@ -2,8 +2,8 @@ site_name: 'My Documentation'
 site_description: 'My GitHub Pages Documentation'
 nav:
   - Home: _index.md
-repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
-edit_uri: edit/main/docs
+repo_url: https://github.com/khngu/khngu.github.io/tree/main/website/content/docs/developer_manual
+edit_uri: edit/main/website/content/docs/developer_manual
 plugins:
   - techdocs-core
   - search
