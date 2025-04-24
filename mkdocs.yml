@@ -1,17 +1,17 @@
-site_name: 'Developer Manual'
-site_description: 'Developer Documentation'
-docs_dir: website/content/docs/developer_manual
+site_name: 'My Documentation'
+site_description: 'My GitHub Pages Documentation'
 nav:
-  - Home: index.md
-  - Getting Started: getting_started/
-  - Infrastructure: infrastructure/
-  - Kubernetes: kubernetes/
-  - O11y: o11y/
-  - Technical Solutions: technical_solutions/
-  - Toolchain: toolchain/
-  - Tutorials: tutorials/
-repo_url: https://github.com/khngu/khngu.github.io/tree/main/website/content/docs/developer_manual
-edit_uri: edit/main/website/content/docs/developer_manual
+  - Home: website/content/docs/developer_manual/index.md
+  - Getting Started: website/content/docs/developer_manual/getting_started/_index.md
+  - Infrastructure: website/content/docs/developer_manual/infrastructure/_index.md
+  - Kubernetes: website/content/docs/developer_manual/kubernetes/_index.md
+  - O11y: website/content/docs/developer_manual/o11y/_index.md
+  - Technical Solutions: website/content/docs/developer_manual/technical_solutions/_index.md
+  - Toolchain: website/content/docs/developer_manual/toolchain/_index.md
+  - Tutorials: website/content/docs/developer_manual/tutorials_index.md
+  
+repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
+edit_uri: edit/main/docs
 plugins:
   - techdocs-core
   - search
@@ -30,6 +30,14 @@ extra_javascript:
   - extra.js
 theme:
   name: material
+  palette:
+    #- scheme: default
+    #  primary: red
+    #  accent: red
+    #- scheme: slate
+    #  primary: indigo
+    #  accent: indigo
+  favicon: assets/favicon.png
   features:
     - navigation.tabs
     - navigation.sections
