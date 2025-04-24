@@ -1,11 +1,11 @@
 site_name: 'My Documentation'
 site_description: 'My GitHub Pages Documentation'
 nav:
-  - Home: index.md
-  - Onboarding: onboarding.md
-  - Team: team.md
-  - Tools: tools/
-  - Getting Started: getting-started.md
+  - Home: docs/index.md
+  - Onboarding: docs/onboarding.md
+  - Team: docs/team.md
+  - Tools: docs/tools/
+  - Getting Started: docs/test/getting-started.md
 repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
 edit_uri: edit/main/docs
 plugins:
