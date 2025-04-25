@@ -53,7 +53,7 @@ nav:
     - Public LB with GitHub Auth: developer_manual/technical_solutions/public_load_balancer_guide/index.md
     - Public LB with Azure Auth: developer_manual/technical_solutions/public_load_balancer_oidc_guide/index.md
     - Cribl/TTWOS Integration: developer_manual/technical_solutions/cribl_integration/index.md
-  Tutorials:
+  - Tutorials:
     - Overview: developer_manual/tutorials/_index.md
     - How to migrate external secrets operator: developer_manual/tutorials/how_to_change_external_secrets_operator.md
     - How to testing Terraform: developer_manual/tutorials/how_to_terragrunt_local_apply.md
