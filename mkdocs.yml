@@ -39,6 +39,11 @@ nav:
       - How To Content: developer_manual/o11y/e2e/how-to-content.md
       - Using OTelCol Filters: developer_manual/o11y/e2e/otelcol-e2e-filters.md
     - Non-EKS workloads: developer_manual/o11y/non-eks.md
+  - Toolchain:
+    - Overview: developer_manual/toolchain/_index.md
+    - Toolchain Guide: developer_manual/toolchain/toolchain_guide.md
+    - AWS Workspaces: developer_manual/toolchain/aws-workspaces.md
+    - Lifehacks: developer_manual/toolchain/lifehacks/index.md
 repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
 edit_uri: edit/main/docs
 plugins:
