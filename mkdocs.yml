@@ -2,13 +2,6 @@ site_name: 'My Documentation'
 site_description: 'My GitHub Pages Documentation'
 docs_dir: docs
 nav:
-  #- Home: index.md
-  #- Onboarding: onboarding.md
-  #- Team: team.md
-  #- Tools: tools.md
-  #- Getting Started 1: getting-started.md
-  #- Getting Started 2: test/getting-started.md
-  #- Test: test/test2/_index.md
   - Overview: developer_manual/_index.md
   - Getting Started: 
     - Introduction: developer_manual/getting_started/_index.md
