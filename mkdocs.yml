@@ -17,7 +17,9 @@ nav:
     - Request Access: developer_manual/getting_started/request_access.md
   - Infrastructure:
     - Introduction: developer_manual/infrastructure/_index.md
+    - AWS Authentication and Authorization: developer_manual/infrastructure/aws_authn_authz/index.md
     - Infrastructure Development: developer_manual/infrastructure/infrastructure_development.md
+    - Dirty States: developer_manual/infrastructure/dirty_states/index.md
     - PCS States: developer_manual/infrastructure/pcs_scheduler.md
 repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
 edit_uri: edit/main/docs
