@@ -7,8 +7,8 @@ nav:
   - Tools: tools/
   - Getting Started: test/getting-started.md
   - Test: test/test2/_index.md
-repo_url: https://github.com/khngu/khngu.github.io/tree/main/website
-edit_uri: edit/main/website
+repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
+edit_uri: edit/main/docs
 plugins:
   - techdocs-core
   - search
