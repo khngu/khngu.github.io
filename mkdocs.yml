@@ -11,10 +11,12 @@ nav:
   - Test: test/test2/_index.md
   - Overview: developer_manual/_index.md
   - Getting Started: 
-    - Getting Started 3: developer_manual/getting_started/_index.md
+    - Introduction: developer_manual/getting_started/_index.md
     - Manual Setup: developer_manual/getting_started/manual_setup.md
     - Naming Conventions: developer_manual/getting_started/repo_naming_conventions.md
     - Request Access: developer_manual/getting_started/request_access.md
+  - Infrastructure:
+    - Introduction: developer_manual/infrastructure/_index.md
 repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
 edit_uri: edit/main/docs
 plugins:
