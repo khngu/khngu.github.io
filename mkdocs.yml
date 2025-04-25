@@ -44,6 +44,15 @@ nav:
     - Toolchain Guide: developer_manual/toolchain/toolchain_guide.md
     - AWS Workspaces: developer_manual/toolchain/aws-workspaces.md
     - Lifehacks: developer_manual/toolchain/lifehacks/index.md
+  #- Technical Solutions:
+  #  - Overview:
+  #  - Docker Builds:
+  #  - OCI Helm Chart Builds:
+  #  - Packer Builds:
+  #  - Privatelinks:
+  #  - Public LB with GitHub Auth:
+  #  - Public LB with Azure Auth:
+  #  - Cribl/TTWOS Integration:
 repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
 edit_uri: edit/main/docs
 plugins:
