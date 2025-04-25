@@ -1,7 +1,6 @@
 # Welcome to My Developer Portal! ✨
 
 <div class="zoom-in">
-<img src="/api/placeholder/1200/250" alt="Developer Portal Banner">
 </div>
 
 ## Your One-Stop Development Hub
