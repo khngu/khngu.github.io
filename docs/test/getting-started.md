@@ -8,9 +8,9 @@ Use the tabs at the top to explore different sections on the [homepage](index.md
 
 ## Key Resources
 
-- [Homepage](../docs/index.md)
-- [Onboarding Guide](../docs/onboarding.md)
-- [Tools Documentation](../docs/tools.md)
+- [Homepage](../index.md)
+- [Onboarding Guide](../onboarding.md)
+- [Tools Documentation](../tools.md)
 
 <div class="content-box">
     **Tip:** Check out the different tool sections on the homepage for detailed information.
