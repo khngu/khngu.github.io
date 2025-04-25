@@ -22,4 +22,3 @@ Meet your team members.
 ## Further Resources
 
 - [Internal Wiki](https://your-internal-wiki.com)
-- [FAQ](faq.md)
