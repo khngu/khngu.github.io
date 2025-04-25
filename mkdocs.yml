@@ -14,6 +14,20 @@ nav:
     - Infrastructure Development: developer_manual/infrastructure/infrastructure_development.md
     - Dirty States: developer_manual/infrastructure/dirty_states/index.md
     - PCS States: developer_manual/infrastructure/pcs_scheduler.md
+  - Kubernetes: 
+    - Introduction: developer_manual/kubernetes/_index.md
+    - Getting Started: developer_manual/kubernetes/getting_started.md
+    - CET vs. Legacy: developer_manual/kubernetes/cet_vs_legacy.md
+    - Downscaling: developer_manual/kubernetes/downscaling.md
+    - External Auth: developer_manual/kubernetes/external-authentication.md
+    - Helm Charts: developer_manual/kubernetes/helm_render.md
+    - Helm Charts Compliance: developer_manual/kubernetes/helm-chart-compliance.md
+    - Karpenter Provisioners: developer_manual/kubernetes/karpenter_prosivioners.md
+    - Pods in host network: developer_manual/kubernetes/host-network.md
+    - Portal: developer_manual/kubernetes/portal/index.md
+    - Updating: developer_manual/kubernetes/updating.md
+    - Updating Istio: developer_manual/kubernetes/updating-istio.md
+    - Known Issues: developer_manual/kubernetes/known_issues/_index.md
 repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
 edit_uri: edit/main/docs
 plugins:
