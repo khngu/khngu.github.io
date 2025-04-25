@@ -5,7 +5,7 @@ nav:
   - Home: index.md
   - Onboarding: onboarding.md
   - Team: team.md
-  - Tools: tools/
+  - Tools: tools.md
   - Getting Started: test/getting-started.md
   - Test: test/test2/_index.md
   - Overview: developer_manual/_index.md
