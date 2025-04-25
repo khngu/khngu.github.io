@@ -4,18 +4,18 @@ docs_dir: docs
 nav:
   - Overview: developer_manual/_index.md
   - Getting Started: 
-    - Introduction: developer_manual/getting_started/_index.md
+    - Overview: developer_manual/getting_started/_index.md
     - Manual Setup: developer_manual/getting_started/manual_setup.md
     - Naming Conventions: developer_manual/getting_started/repo_naming_conventions.md
     - Request Access: developer_manual/getting_started/request_access.md
   - Infrastructure:
-    - Introduction: developer_manual/infrastructure/_index.md
+    - Overview: developer_manual/infrastructure/_index.md
     - AWS Authentication and Authorization: developer_manual/infrastructure/aws_authn_authz/index.md
     - Infrastructure Development: developer_manual/infrastructure/infrastructure_development.md
     - Dirty States: developer_manual/infrastructure/dirty_states/index.md
     - PCS States: developer_manual/infrastructure/pcs_scheduler.md
   - Kubernetes: 
-    - Introduction: developer_manual/kubernetes/_index.md
+    - Overview: developer_manual/kubernetes/_index.md
     - Getting Started: developer_manual/kubernetes/getting_started.md
     - CET vs. Legacy: developer_manual/kubernetes/cet_vs_legacy.md
     - Downscaling: developer_manual/kubernetes/downscaling.md
@@ -28,6 +28,17 @@ nav:
     - Updating: developer_manual/kubernetes/updating.md
     - Updating Istio: developer_manual/kubernetes/updating-istio.md
     - Known Issues: developer_manual/kubernetes/known_issues/_index.md
+  - Observability: 
+    - Overview: developer_manual/o11y/_index.md
+    - ArgoCD Alerts: developer_manual/o11y/argocd-alerts.md
+    - End-To-End (E2E):
+      - Introduction: developer_manual/o11y/e2e/_index.md
+      - Onboarding: developer_manual/o11y/e2e/onboarding.md
+      - Architecture: developer_manual/o11y/e2e/architecture/index.md
+      - Designing OTelCols For E2E: developer_manual/o11y/e2e/otelcol-e2e-design.md
+      - How To Content: developer_manual/o11y/e2e/how-to-content.md
+      - Using OTelCol Filters: developer_manual/o11y/e2e/otelcol-e2e-filters.md
+    - Non-EKS workloads: developer_manual/o11y/non-eks.md
 repo_url: https://github.com/khngu/khngu.github.io/tree/main/docs
 edit_uri: edit/main/docs
 plugins:
