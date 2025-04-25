@@ -11,9 +11,9 @@ This developer portal brings together all the tools, documentation, and resource
 </div>
 
 !!! tip "Quick Navigation"
-    * [🚀 **Get Started**](getting-started.md) - Begin your journey
-    * [🔍 **Explore Tools**](tools.md) - Discover our development tools
-    * [👥 **Meet the Team**](team.md) - Connect with colleagues
+    * [🚀 **Get Started**] - Begin your journey
+    * [🔍 **Explore Tools**] - Discover our development tools
+    * [👥 **Meet the Team**] - Connect with colleagues
 
 ## Key Features
 
@@ -71,7 +71,7 @@ This developer portal brings together all the tools, documentation, and resource
 
 Having trouble? Don't worry, we're here to help! Visit the Q&A section to ask questions or check out existing answers.
 
-[Ask a Question →](../qeta)
+[Ask a Question →]
 
 </div>
 
