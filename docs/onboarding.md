@@ -10,10 +10,10 @@ Follow these instructions to set up your user account.
 
 Get familiar with the key tools we use, such as:
 
-- [Git-Hub](tools/index.md#git-hub)
-- [Confluence](tools/index.md#confluence)
-- [Teams-Kanal](tools/index.md#teams-kanal)
-- [Sharepoint](tools/index.md#sharepoint)
+- [Git-Hub](index.md#git-hub)
+- [Confluence](index.md#confluence)
+- [Teams-Kanal](index.md#teams-kanal)
+- [Sharepoint](index.md#sharepoint)
 
 ## Step 3: Team Introduction
 
