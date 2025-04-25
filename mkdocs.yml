@@ -59,7 +59,7 @@ nav:
     - How to testing Terraform: developer_manual/tutorials/how_to_terragrunt_local_apply.md
     - How to Terraform module: developer_manual/tutorials/how_to_create_a_terraform_module/index.md
     - How to maintain a Terraform Project Repository: developer_manual/tutorials/how_to_maintain_a_terraform_project.md
-    - How to PR: developer_manual/tutorials/how_to_pr/_index.md
+    - How to PR: developer_manual/tutorials/how_to_pr/index.md
     - How to SemVer: developer_manual/tutorials/how_to_semver.md
     - How to AWS IDP Transition: developer_manual/tutorials/how_to_idps_transition.md
     - How to CAWS and PAM: developer_manual/tutorials/how_to_config_caws_to_use_pam/index.md
