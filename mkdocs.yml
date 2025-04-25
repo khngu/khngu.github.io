@@ -78,17 +78,17 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-theme:
-  name: material
-  palette:
+#theme:
+#  name: material
+#  palette:
     #- scheme: default
     #  primary: red
     #  accent: red
     #- scheme: slate
     #  primary: indigo
     #  accent: indigo
-  favicon: assets/favicon.png
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
+#  favicon: assets/favicon.png
+#  features:
+#    - navigation.tabs
+#    - navigation.sections
+#    - toc.integrate
