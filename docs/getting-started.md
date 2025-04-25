@@ -10,7 +10,7 @@ Use the tabs at the top to explore different sections on the [homepage](index.md
 
 - [Homepage](index.md)
 - [Onboarding Guide](onboarding.md)
-- [Tools Documentation](tools/index.md)
+- [Tools Documentation](tools.md)
 
 <div class="content-box">
     **Tip:** Check out the different tool sections on the homepage for detailed information.
