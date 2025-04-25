@@ -22,7 +22,7 @@ nav:
     - External Auth: developer_manual/kubernetes/external-authentication.md
     - Helm Charts: developer_manual/kubernetes/helm_render.md
     - Helm Charts Compliance: developer_manual/kubernetes/helm-chart-compliance.md
-    - Karpenter Provisioners: developer_manual/kubernetes/karpenter_prosivioners.md
+    - Karpenter Provisioners: developer_manual/kubernetes/karpenter_provisioners.md
     - Pods in host network: developer_manual/kubernetes/host-network.md
     - Portal: developer_manual/kubernetes/portal/index.md
     - Updating: developer_manual/kubernetes/updating.md
