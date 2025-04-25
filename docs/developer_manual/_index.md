@@ -4,7 +4,6 @@ description: This section covers topics for contributing to the infrastructure f
 aliases:
   - /docs/developer_guide/developer_guide.html
 weight: 30
-icon: fa-solid fa-code
 ---
 
 {{< alert color="success" >}}
