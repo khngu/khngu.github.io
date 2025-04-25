@@ -79,7 +79,7 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 theme:
-  name: material
+  #name: material
 #  palette:
     #- scheme: default
     #  primary: red
