@@ -1,6 +1,6 @@
 site_name: 'Onboarding'
 site_description: 'Developer Onboarding Guide'
-docs_dir: docs
+docs_dir: website/content/docs #docs
 nav:
   - Overview: developer_manual/_index.md
   - Getting Started: 
@@ -65,7 +65,7 @@ nav:
     - How to CAWS and PAM: developer_manual/tutorials/how_to_config_caws_to_use_pam/index.md
     - How to Git: developer_manual/tutorials/how_to_git/index.md
 repo_url: https://github.com/khngu/khngu.github.io
-edit_uri: edit/main/docs
+edit_uri: edit/main/website/content/docs #edit/main/docs
 plugins:
   - techdocs-core
   - search
