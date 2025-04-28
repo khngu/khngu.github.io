@@ -1,5 +1,5 @@
 site_name: 'Onboarding'
-site_description: 'Onboarding Guide'
+site_description: 'Developer Onboarding Guide'
 docs_dir: docs
 nav:
   - Overview: developer_manual/_index.md
