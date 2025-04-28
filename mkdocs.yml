@@ -92,3 +92,6 @@ theme:
     - navigation.tabs
     - navigation.sections
     - toc.integrate
+  custom_dir: overrides
+extra_css:
+  - assets/stylesheets/extra.css
