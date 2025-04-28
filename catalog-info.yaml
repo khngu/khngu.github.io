@@ -5,6 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: khngu/khngu.github.io
     backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-entity: true
 spec:
   type: website
   lifecycle: experimental
