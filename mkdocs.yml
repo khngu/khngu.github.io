@@ -1,5 +1,5 @@
-site_name: 'My Documentation'
-site_description: 'My GitHub Pages Documentation'
+site_name: 'Onboarding'
+site_description: 'Onboarding Guide'
 docs_dir: docs
 nav:
   - Overview: developer_manual/_index.md
