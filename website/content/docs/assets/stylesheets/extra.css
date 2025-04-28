@@ -1,0 +1,12 @@
+.md-tabs {
+  background-image: linear-gradient(to right, #e60000, #ff0066);
+}
+
+/* Optional: Change the text color to ensure readability */
+.md-tabs__link {
+  color: white !important;
+}
+
+.md-tabs__link--active {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
