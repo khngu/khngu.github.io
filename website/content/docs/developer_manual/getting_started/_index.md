@@ -6,7 +6,7 @@ tags: [Onboarding]
 weight: -1
 ---
 
-Please begin with reading the [core concepts]({{< ref core_concepts>}}). JAAAAAAAAAA
+Please begin with reading the [core concepts]({{< ref core_concepts>}}).
 
 Then explore the [VFDE-SOL](https://github.vodafone.com/VFDE-SOL) organisation.
 
