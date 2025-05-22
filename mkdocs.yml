@@ -1,4 +1,4 @@
-site_name: 'Onboarding'
+site_name: 'Onboarding test'
 site_description: 'Developer Onboarding Guide'
 docs_dir: website/content/docs #docs
 nav:
